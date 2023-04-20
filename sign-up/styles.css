@@ -157,7 +157,7 @@ body {
 #male-check-input {
     position: absolute;
     top: 90px;
-    padding: 0 0;
+    padding: 0px 0px;
 }
 
 #male-gender {
@@ -171,7 +171,7 @@ body {
     position: absolute;
     left: 100px;
     top: 90px;
-    padding: 0 0;
+    padding: 0px 0px;
 }
 
 #female-gender {
@@ -222,6 +222,10 @@ body {
     position: absolute;
     top: 580px;
     left: 80px;
+}
+
+#terms-check-box {
+    padding: 0px 0px;
 }
 
 #check-box-message {
