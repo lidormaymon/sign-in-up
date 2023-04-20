@@ -94,7 +94,6 @@ function chkData() {
     const email = document.getElementById('email-html').value;
     const userBirthdate = document.getElementById('user-birthdate').value;
 
-
     const usernamePassed = chkUsername();
     const passwordPassed = chkPassword();
     const passedEmail = chkEmail();
@@ -103,7 +102,7 @@ function chkData() {
     const termsPassed = chkTerms();
 
     if (usernamePassed && passwordPassed && genderPassed && agePassed && passedEmail && termsPassed === true) {
-        axios.post('http://localhost:3000/users', { username: userName, password: password, email: email, birthdate: userBirthdate, })
+        axios.post('Servers/users-db.json', { username: userName, password: password, email: email, birthdate: userBirthdate, })
         window.location.href = '/index.html'
     }
 }

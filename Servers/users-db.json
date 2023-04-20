@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "username": "lidor",
+      "password": "123456",
+      "email": "lidorm20@gmail.com",
+      "birthdate": "2000-12-29",
+      "id": 1
+    }
+  ]
+}
