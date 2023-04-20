@@ -157,6 +157,7 @@ body {
 #male-check-input {
     position: absolute;
     top: 90px;
+    padding: 0 0;
 }
 
 #male-gender {
@@ -170,6 +171,7 @@ body {
     position: absolute;
     left: 100px;
     top: 90px;
+    padding: 0 0;
 }
 
 #female-gender {

@@ -103,6 +103,7 @@ body {
 
 @media screen and (min-device-width : 280px) and (max-device-width : 655px) { /* Mobiles phone sizes */
     .container {
+        top: -100px;
         width: 95%;
     }
 
