@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Playfair+Display:wght@600&family=Poppins:ital,wght@1,600&display=swap');
+
+
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    height: 490px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border: none;
+    box-shadow: 1px 2px 5px 7px rgba(191,181,181,0.75);
+    -webkit-box-shadow: 1px 2px 5px 7px rgba(191,181,181,0.75);
+    -moz-box-shadow: 1px 2px 5px 7px rgba(191,181,181,0.75);
+}
+
+
+
+.container input {
+    padding: 0 40px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+
+.title {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size:  35px;
+
+    color: #333;
+}
+
+#icon-username {
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#user-name {
+    position: absolute;
+    top: 150px;
+    left: 69px;
+}
+
+#icon-pwd  {
+    position: absolute;
+    top: 260px;
+    font-size: 20px;
+    left: 80px;
+    z-index: 1;
+}
+
+#password-html {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+
+.container button {
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+    color: white;
+    border-radius: 35px;
+    padding: 13px 60px;
+    position: absolute;
+    font-size: 20px;
+    top: 350px;
+    left: 115px;
+}
+
+.no-account {
+    font-size: 11px;
+    color: #63d5f7;
+    position: absolute;
+    top: 330px;
+    left: 80px;
+}
+
+#error-message {
+    font-size: 12px;
+    position: absolute;
+    top: 310px;
+    left: 80px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-device-width : 280px) and (max-device-width : 655px) { /* Mobiles phone sizes */
+    .container {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (min-device-width: 1200px) 
+
+and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { /* Laptop devices sizes */
+    
+    .container {
+        margin-top: 120px;
+    }
+}

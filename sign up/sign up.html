@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="menu">
+            <i class="uil uil-user" id="icon-username"></i>
+            <input type="text" name="user-name" placeholder="Username" id="user-name-signup">
+            <div id="username-message">
+
+            </div><br>
+            <i class="uil uil-lock" id="icon-pwd"></i>
+            <input type="password" name="user-name" placeholder="Password" id="pwd-signup">
+            <div id="password-message">
+
+            </div><br>
+            <i class="uil uil-lock" id="icon-repaetPwd"></i>
+            <input type="password" placeholder="Repeat password" id="repeat-pwd">
+            <div id="repeat-password-message">
+                
+            </div><br>
+            <i class="uil uil-envelope" id="email-icon"></i>
+            <input type="text" placeholder="Email" id="email-html">
+            <div id="email-message">
+                
+            </div>
+            <div class="gender-check">
+                <label class="gender-title">Gender</label><br>
+                <input type="radio" name="checkbox" id="male-check-input" value="male">
+                <label id="male-gender">Male</label>
+                <input type="radio" name="checkbox" id="female-check-input" value="'female">
+                <label id="female-gender">Female</label>
+                <div id="gender-message">
+                    
+                </div>
+            </div>
+            <label class="birthdate-title">Birthdate</label><br>
+            <input type="date" id="user-birthdate"><br>
+            <div id="birthdate-message">
+                
+            </div>
+            <div>
+                <input type="checkbox" class="terms-check" id="terms-check-box">
+                <div id="check-box-message">
+                </div>
+                <div class="terms">I <span class="terms-highlight"> have</span> read and agree to the <span class="terms-highlight">terms</span> .</div>
+                <a href="sign-in-up/index.html" class="already-have-user">Already have an account?</a>
+            </div>
+            <button onclick="chkData()">Sign up</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
