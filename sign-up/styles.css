@@ -31,7 +31,6 @@ body {
 }
 
 .container input {
-    padding: 0 40px;
     height: 50px;
     border: none;
     border-bottom: 1px solid #333;
@@ -48,6 +47,7 @@ body {
 
 #user-name-signup {
     position: absolute;
+    padding: 0 40px;
     top: 60px;
     left: 80px;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 #pwd-signup {
-    display: no;
+    padding: 0 40px;
     position: absolute;
     top: 150px;
     left: 80px;
@@ -96,6 +96,7 @@ body {
 }
 
 #repeat-pwd{
+    padding: 0 40px;
     position: absolute;
     top: 230px;
     left: 80px;
@@ -111,6 +112,7 @@ body {
 }
 
 #email-html {
+    padding: 0 40px;
     position: absolute;
     top: 300px;
     left: 80px;
@@ -157,7 +159,6 @@ body {
 #male-check-input {
     position: absolute;
     top: 90px;
-    padding: 0px 0px;
 }
 
 #male-gender {
@@ -171,7 +172,6 @@ body {
     position: absolute;
     left: 100px;
     top: 90px;
-    padding: 0px 0px;
 }
 
 #female-gender {
@@ -222,10 +222,6 @@ body {
     position: absolute;
     top: 580px;
     left: 80px;
-}
-
-#terms-check-box {
-    padding: 0px 0px;
 }
 
 #check-box-message {
