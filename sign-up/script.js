@@ -41,15 +41,17 @@ function chkPassword() {
 function chkEmail() {
     const email = document.getElementById('email-html').value;
     const alretEmail = document.getElementById('email-message');
-
-    if (email === '') {
-        alretEmail.style.color = 'red';
-        alretEmail.innerHTML = 'Please enter a valid email';
-        return false;
-    } else return true;
-
-
-}
+  
+    if (email === '' || !email.includes('@') || !email.includes('.com')) {
+      alretEmail.style.color = 'red';
+      alretEmail.innerHTML = 'Please enter a valid email';
+      return false;
+    } else {
+        
+        return true;
+    }
+  }
+  
 
 function chkGender() {
     const male = document.getElementById('male-check-input');
