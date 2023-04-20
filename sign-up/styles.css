@@ -261,7 +261,7 @@ body {
 @media screen and (min-device-width : 280px) and (max-device-width : 655px) { /* Mobiles phone sizes */
     .container {
         width: 95%;
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
 }
